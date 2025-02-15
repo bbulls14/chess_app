@@ -1,7 +1,4 @@
-Based on ![this researchpaper](https://www.nature.com/articles/s41598-023-31658-w)
-
-***rebuilding checklist based on memory***
-
+Based on ![this research paper](https://www.nature.com/articles/s41598-023-31658-w)
 
 - [x] identify features to extract from pgn games
 - [x] create a script to parse pgn files
@@ -17,5 +14,7 @@ Based on ![this researchpaper](https://www.nature.com/articles/s41598-023-31658-
 - [] verify accuracy of model by comparing results to actual openings of players (including newly added openings, not part of train or test datasets)
 
 
-- [] design website that allows for username input, accesses pgn files for that user, determines playstyle and then recommends openings
-
+- [] design website that allows for username input
+- [] research lichess API for accessing pgn files for username
+- [] Parse pgn files and use scoring system to create a player profile
+- [] Use player profile to recommend openings based on other players' openings
