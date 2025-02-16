@@ -3,7 +3,7 @@ from ScoreCalculator import ScoreCalculator
 import psycopg2
 import chess_app.database.ParsePGN as ParsePGN
 
-connection = psycopg2.connect(' ')
+connection = psycopg2.connect('')
 cursor = connection.cursor()
 
 pgn = r"C:\Users\DELL\IdeaProjects\django\out.pgn"
